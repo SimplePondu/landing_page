@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* te jāpieliek tas dranķa fonts*/
+    
+}
+
+.row{
+
+}
+
+
+.header{
+    padding: 50px 0;
+    align-items: center;
+    background-color: white;
+    }
+
+.nav__item{
+margin: 0px 20px;
+color: rgba(31, 21, 52, 0.5);
+transition: 0.2s;
+text-decoration: none;
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+letter-spacing: 0.2px;
+color: #20262A;
+}
+
+.button{
+    border-radius: 85px;
+    border: 1px solid #00B6F0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #00B6F0;
+    padding: 16px 46px;
+    text-decoration: none;
+}
+
+.nav__item:hover{
+    text-decoration: none;
+    color: #00B6F0;
+}
+
+/* pirmā sekcija*/
+
+.hero__wrapper{
+     width: 100%; 
+    background: url(./Bildes/Blue_circle.svg) left top no-repeat, url(./Bildes/yellow_circle.svg) right bottom no-repeat;
+     min-height: 500px; 
+}
+   
+ 
+.heading__title-1{
+font-weight: 900;
+font-size: 72px;
+letter-spacing: 0.2px;
+color: #112D57;
+text-align: center;
+padding-bottom: 27px;
+
+}
+
+.paragraph{
+margin: 0;
+ margin-bottom: 94px;
+font-weight: 450;
+font-size: 24px;
+color: #5C5C5C;
+text-align: center;
+}
+
+.button__wrapper{
+text-align: center;
+margin-bottom: 16px;
+}
+
+.button.button-blue{
+background-color:#00B6F0;
+color: white;
+padding: 16px 46px;
+font-size: 18px;
+}
+
+.button.button-white{
+padding: 16px 46px;
+color: #20262A;
+margin-left: 25px;
+font-size: 18px;
+}
+
+.heading__title-3{
+font-weight: 450;
+font-size: 36px;
+color: #F3CD03;
+ margin: 0;
+ padding-bottom: 27px;
+
+}
+
+.heading__title-2{
+margin: 0;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+color: #20262A;
+padding-bottom: 27px;
+
+}
+
+.hero__image-navi{
+    margin-top: 100px;
+}
+
+.button__wrapper{
+    margin-bottom: 183px;
+}
+
+/* otrā sadaļa*/
+
+.heading__title-3.heading__title-3-testimonials{
+    color: #20262A;
+    font-weight: 450;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.paragraph.paragraph__left{
+   text-align: left;
+   margin-bottom: 27px;
+}
+
+.button.button_no-border{
+    border: none;
+    text-transform: uppercase;
+      text-align: left;
+    padding: 0;
+}
+
+.likes_progres{
+    padding-bottom: 15px;
+}
+
+
+.button.button_facebook-progress{
+    margin-top: 45px;
+}
+
+.facebook__button-wrapper{
+    margin-top: 50px;
+    margin-bottom: 231px;
+}
+
+.IBM__image{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.profile_image-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile__description{
+    margin: 0;
+    margin-left: 5px;
+
+    align-items: center;
+}
+
+.heading__title-5{
+    margin: 0;
+    font-weight: 450;
+    font-size: 18px;
+    color: #20262A;
+    letter-spacing: 0.2px;
+  }
+.profile__title{
+    font-weight: 450;
+    letter-spacing: 0.1px;
+font-size: 18px;
+color: #5C5C5C;
+}
+
+
+.profile_button-wrapper{
+    margin-top: 51px;
+    margin-bottom: 108px;
+}
+
+.pricing__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #182333;
+       padding-left: 210px;
+    
+
+}
+
+.heading__title-2.heading__title-2-white{
+color: #FFFFFF;
+font-size: 56px;
+text-align: left;
+padding-top: 50px;
+padding-bottom: 6px;
+}
+
+.paragraph.paragraph__pricing{
+font-size: 19px;
+line-height: 30px;
+color: #FFFFFF;
+text-align: left;
+max-width: 417px;
+}
+
+.heading__title-5.heading__title-5-pricing{
+font-weight: 450;
+font-size: 18px;
+letter-spacing: 0.1px;
+color: #FFFFFF;
+margin-top: 100px;
+padding-bottom: 20px;
+text-align: left;
+}
+
+.pricing__5-add{
+    display: flex;
+    align-items: center;
+    justify-content: lef;
+    
+}
+
+.pricing__image{
+  align-items: flex-start;
+}
+
+.pricing_per-user{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px; 
+    color: #FFFFFF;
+    max-width: 146px;
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.paragraph.paragraph__pricing.paragraph__pricing-user{
+max-width: 271px;
+margin-bottom: 30px;
+
+}
+
+
+.pricing__button-wrapper{
+    margin: 0;
+   text-align:left ;
+   margin-bottom: 100px;
+}
+.button.button-blue.button-blue-pricing{
+    padding: 16px 48px;
+   }
+
+.pricing__details-wrapper{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
+    padding-top: 80px;
+}
+
+.heading__title-3.heading__title-3-color{
+    color: #20262A;
+font-size: 36px;
+max-width: 406px;
+}
+
+.paragraph.paragraph_pricing-details{
+    max-width: 426px;
+    margin-right:158px ;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #5C5C5C;
+    font-size: 19px;
+    
+}
+
+.footer__logo-details{
+    font-weight: 450;
+font-size: 18px;
+letter-spacing: 0.1px;
+color: #5C5C5C;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 148px;
+}
+
+.footer__logo-details{
+    width: 100%;
+   
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+ 
+}
